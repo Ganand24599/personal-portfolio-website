@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    
+   </head>
+
+<body>
+    <div class="password-generator">
+        <div class="head">
+            <div class="title">
+                Password:
+            </div>
+            <div class="password">
+
+            </div>
+        </div>
+        <div class="length">
+            <div class="title">
+                Length: <span>3</span>
+            </div>
+            <div class="input">
+                <input type="range" id="password-length" min="5" max="30" value="10">
+            </div>
+        </div>
+        <div class="settings">
+            <div class="title">
+                Settings:
+            </div>
+            <div class="list">
+                <div class="item">
+                    <input type="checkbox" id="setting-number">
+                    <label for="setting-number">Number (0-9)</label>
+                </div>
+            </div>
+            <div class="list">
+                <div class="item">
+                    <input type="checkbox" id="setting-specialchar">
+                    <label for="setting-specialchar">Symbols ( @#$ )</label>
+                </div>
+            </div>
+        </div>
+        <button id="generate-password">Generate Password</button>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

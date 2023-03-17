@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Application form
+    </title>
+    <style>
+table,th{ border: 1px solid black;
+        border-collapse: collapse;
+        border-style:double;
+        border-color: rgb(255, 32, 3);
+        color: blue;
+        font-size: 30PX;}
+    th{text-transform: uppercase;}
+    tr,input,th{font-size: 20px;}
+    button{font-size: 30px;
+    font-family:Georgia}
+</style>
+</head>
+<body background="https://images-cdn.welcomesoftware.com/Zz03ZTY0Mzk3MDhlNDgxMWViYmRmNWY3MjZjM2QxZTdiZg==" >
+<form action="Sign page.html" method="post">
+<!--First name--> 
+<div align="center">
+<table  >
+        <th style="color: rgb(0, 0, 0); font-size: 20mm;">Application form</th>
+        <tr><td><label for="First Name:">First Name</label>
+    <input type="text" id="First Name:"  placeholder="Anand" required></td></tr>
+<!--Lase name-->
+<tr>
+    <td>
+    <label for="Last Name:">Last Name</label>
+    <input type="text" id="Last Name:" id="Last Name:" required  placeholder="G">
+    </td>
+</tr>
+<!--Mobile Number-->
+<tr>
+    <td>
+        <label for="Mobile Number:">Mobile Number:</label>
+        <input type="text" name="Mobile Number" id="Mobile Number:" required placeholder="843891****">
+    </td>
+</tr>
+<!--E mail address-->
+<tr>
+    <td>
+        <label for="E mail address:">E mail address:</label>
+        <input type="email"  id="E mail address:" placeholder="anand@*****" required>
+    </td>
+</tr> 
+<!--position applying-->
+<div><tr>
+    <td>
+        <label > What position are you applying for?</label><br>
+        <input type="radio" name="position" value="Manager" id="Manager">
+        <label for="Manager">Manager</label><br>
+        <input type="radio" name="position" value="Cashire" id="Cashire">
+        <label for="Cashire">Cashire</label><br>
+        <input type="radio" name="position"value="Sales" id="Sales">
+        <label for="Sales">Sales</label><br>
+        <input type="radio"name="position" value="other" id="other">
+        <label for="other">other</label>
+    </td>
+</tr></div>
+<!--Education-->
+<div>
+    <tr>
+        <td>
+            <label >Education</label><br>
+            <input type="radio" name="Education" value="High school" id="High school">
+            <label for="High school">High school</label> <br>
+            <input type="radio" name="Education" value="Associates" id="Associates">
+            <label for="Associates">Associates</label><br>
+            <input type="radio" name="Education" value="Bachlor's" id=" Bachlor's">
+            <label for=" Bachlor's"> Bachlor's</label><br>
+            <input type="radio" name="Education" value="Other" id="Other"> 
+            <label for="Other">Other </label>
+        </td>
+    </tr>
+</div>
+<!--Employment Status-->
+<tr>
+    <td>
+        <label for="">What is your current Employment Status ?  </label><br>
+<input type="radio" name="Gender" id="Employed">
+<label for="Employed">Employed</label><br>
+<input type="radio" name="Gender" id="Self-Employed">
+<label for="Self-Employed">Self-Employed</label><br>
+<input type="radio" name="Gender" id="Unemployed">
+<label for="Unemployed">Unemployed</label><br>
+<input type="radio" name="Gender" id="Student">
+<label for="Student">Student</label><br>
+    </td>
+</tr>
+<!--Work Experience-->
+<tr>
+    <td>
+<label for="Work Experience:">Work Experience:</label>
+<input type="number" name="Work Experience:" id="Work Experience:" placeholder="3 years" required>
+    </td>
+</tr>
+<!--Referience-->
+<tr>
+    <td>
+        <label for="Referience:">Referience :</label>
+        <input type="text" name="Referience:" id="Referience:">
+    </td>
+</tr>
+<!--Date-->
+<tr>
+    <td>
+        <label for="Availability to Start Work:">Availability to Start Work:</label><br>
+        <label for="">Date</label>
+        <input type="date" name="Date" id="Availability to Start Work:" required>
+    </td>
+</tr><br>
+<!--file-->
+<tr>
+    <td>
+        <label for="">Submit your resume by providing your resume </label><br>
+        <div align="right"><input  name="submit"  type="file"><label style="font-size: 15px;"><b>500kb below</b></label></div>
+    </td>
+</tr>
+</table>
+<!--Button-->
+<div align="center">
+    <tr><td>
+        <button type="reset">Reset</button>
+        <button type="submit">Sign-in</button>
+        </td></tr></div>
+</form>
+</body>
+</html>
